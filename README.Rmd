@@ -73,11 +73,35 @@ The following data sets are included in the `ucidata` package:
 - [Division of Management Information](http://www.dmi.illinois.edu/)
     - [Student Enrollment by Curriculum and Class Level](http://www.dmi.illinois.edu/stuenr/#class)
 - [Freedom of Information Data Sets](https://www.uillinois.edu/cms/One.aspx?portalId=1324&pageId=171041)
-    - Graybook and Non-graybook Financials
     - Grade Distribution Data
-    - Crime Statistics
+- [Center for Innovation in Teaching and Learning (CITL)](http://citl.illinois.edu/)
+    - Teachers Ranked as Excellent (Data courtesy of Wade-Fagen, see the [project repo for more details](https://github.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC))
 
 ## Build Scripts
 
 Want to see how each data set was imported? 
 Check out the [`data-raw`](https://github.com/coatless/uiucdata/tree/master/data-raw) folder!
+
+## Submodules
+
+This repository uses submodules as a way to store data. This allows for us
+to have the repositories contents as the final data product. As a result, 
+we avoid increase the size of the repository since the raw data is now tracked
+in a separate repository. For more details, please see GitHub's [Working with Submodules ](https://github.com/blog/2104-working-with-submodules) post.
+
+
+### Example submodule inclusion statement
+
+```bash
+# Add Excellent Teacher Data in data-raw
+git submodule add https://github.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC data-raw/excellent-teachers
+```
+
+**NB** This repository is made by an employee of the University of Illinois at
+Urbana-Champaign who is not the author of this data package.
+
+## Coming Soon (TM)
+
+- [Freedom of Information Data Sets](https://www.uillinois.edu/cms/One.aspx?portalId=1324&pageId=171041)
+    - Graybook and Non-graybook Financials
+    - Crime Statistics
