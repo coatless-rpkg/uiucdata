@@ -102,6 +102,15 @@ git submodule add https://github.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC
 **NB** This repository is made by an employee of the University of
 Illinois at Urbana-Champaign who is not the author of this data package.
 
+-----
+
+Raw grade
+data
+
+``` bash
+git submodule add https://github.com/coatless/uiucgradedata data-raw/grade-dist
+```
+
 ## Coming Soon (TM)
 
   - [Freedom of Information Data

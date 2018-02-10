@@ -1,3 +1,6 @@
 [submodule "data-raw/excellent-teachers"]
 	path = data-raw/excellent-teachers
 	url = https://github.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC
+[submodule "data-raw/grade-dist"]
+	path = data-raw/grade-dist
+	url = https://github.com/coatless/uiucgradedata
