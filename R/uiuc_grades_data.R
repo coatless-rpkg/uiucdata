@@ -3,16 +3,8 @@
 #' Grade distributions by letter grade for every class and instructor from
 #' Summer 2005 to Summer 2017 at the University of Illinois at Urbana-Champaign
 #' (UIUC).
-#' @name grades_uiuc
-#' @format There are four different data sets documented simultaneously within
-#' this file.
 #'
-#' - `grades_fall`: 58934 observations and 25 variables.
-#' - `grades_spring`: 58220 observations and 25 variables.
-#' - `grades_summer`: 6948 observations and 25 variables.
-#' - `grades_winter`: 53 observations and 25 variables.
-#'
-#' with the format of:
+#' @format A data.frame with 124155 and 25 variables with the format of:
 #'
 #' - `crn`
 #'     - Course Registration Number
@@ -94,24 +86,5 @@
 #' @examples
 #'
 #' # Load Fall Data
-#' data("grades_fall", package="uiucdata")
-#' # Load Winter Data
-#' data("grades_winter", package="uiucdata")
-#' # Load Spring Data
-#' data("grades_spring", package="uiucdata")
-#' # Load Summer Data
-#' data("grades_summer", package="uiucdata")
-#'
-#' # Make a grades data.frame containing everything
-#' grades = rbind(grades_fall, grades_winter,
-#'                grades_spring, grades_summer)
-"grades_fall"
-
-#' @name grades_uiuc
-"grades_spring"
-
-#' @name grades_uiuc
-"grades_summer"
-
-#' @name grades_uiuc
-"grades_winter"
+#' data("grade_dist", package="uiucdata")
+"grade_dist"

@@ -1,6 +1,6 @@
 Package: uiucdata
 Title: University of Illinois at Urbana-Champaign Data Package
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: person("James", "Balamuta", email = "balamut2@illinois.edu", role = c("aut", "cre"))
 Description: Contained within this package are University of Illinois at Urbana-Champaign
     specific data sets. These data sets range from university financial transactions

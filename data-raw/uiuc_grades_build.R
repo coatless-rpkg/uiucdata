@@ -31,8 +31,11 @@ custom_grade_read = function(fp) {
 }
 
 # Parse the files, bind them, and release as a data.frame
-uiuc_grades = list.files("data-raw/grade-dist", ".*.xlsx", full.names = TRUE) %>%
+grade_dist = list.files("data-raw/grade-dist/xlsx", ".*.xlsx", full.names = TRUE) %>%
   map_dfr(custom_grade_read) %>% as.data.frame
+
+
+devtools::use_data(grade_dist)
 
 # Split based on Semester. (Easier updating)
 grades_fall = uiuc_grades %>%
