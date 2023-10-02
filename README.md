@@ -1,11 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- badges: start -->
 
-[![Travis-CI Build
-Status](https://travis-ci.org/coatless/uiucdata.svg?branch=master)](https://travis-ci.org/coatless/uiucdata)[![CRAN
-RStudio mirror
-downloads](http://cranlogs.r-pkg.org/badges/uiucdata)](http://www.r-pkg.org/pkg/uiucdata)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/uiucdata)](https://cran.r-project.org/package=uiucdata)
+[![R-CMD-check](https://github.com/illinois-r/uiucdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/illinois-r/uiucdata/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 # `uiucdata`
 
@@ -80,7 +78,7 @@ The following data sets are included in the `ucidata` package:
 ## Build Scripts
 
 Want to see how each data set was imported? Check out the
-[`data-raw`](https://github.com/coatless/uiucdata/tree/master/data-raw)
+[`data-raw`](https://github.com/coatless-rpkg/uiucdata/tree/master/data-raw)
 folder!
 
 ## Submodules
@@ -107,5 +105,5 @@ Illinois at Urbana-Champaign who is not the author of this data package.
 Raw grade data
 
 ``` bash
-git submodule add https://github.com/coatless/uiucgradedata data-raw/grade-dist
+git submodule add https://github.com/coatless-rpkg/uiucgradedata data-raw/grade-dist
 ```
