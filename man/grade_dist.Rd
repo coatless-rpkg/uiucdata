@@ -4,7 +4,8 @@
 \name{grade_dist}
 \alias{grade_dist}
 \title{Grade Distribution Data from Summer 2005 - Summer 2017}
-\format{A data.frame with 124155 and 25 variables with the format of:
+\format{
+A data.frame with 124155 and 25 variables with the format of:
 \itemize{
 \item \code{crn}
 \itemize{
@@ -111,7 +112,8 @@
 \itemize{
 \item Year semester takes place in.
 }
-}}
+}
+}
 \usage{
 grade_dist
 }

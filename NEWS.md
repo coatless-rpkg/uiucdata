@@ -1,3 +1,9 @@
+# uiucdata 0.0.3
+
+## Data Sets
+
+- [Salaries](https://dailyillini.com/salaryguide/)
+
 # uiucdata 0.0.2
 
 ## Data Sets

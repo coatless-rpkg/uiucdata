@@ -4,17 +4,22 @@
 \name{uiucdata-package}
 \alias{uiucdata}
 \alias{uiucdata-package}
-\title{uiucdata: University of Illinois at Urbana-Champaign Data Package}
+\title{uiucdata: University of Illinois Urbana-Champaign Data Package}
 \description{
-Contained within this package are University of Illinois at Urbana-Champaign
-specific data sets. These data sets range from university financial transactions
-to enrollment numbers.
+Contained within this package are University of Illinois Urbana-Champaign specific data sets. These data sets range from university financial transactions to enrollment numbers.
 }
 \details{
 Data presented here has been obtained either through a FOIA request or
 by talking with the respective representative.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://r-pkg.thecoatlessprofessor.com/uiucdata/}
+}
+
+}
 \author{
-\strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu}
+\strong{Maintainer}: James Joseph Balamuta \email{balamut2@illinois.edu} (\href{https://orcid.org/0000-0003-2826-8458}{ORCID}) [copyright holder]
 
 }

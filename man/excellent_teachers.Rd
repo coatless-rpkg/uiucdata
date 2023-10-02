@@ -4,7 +4,8 @@
 \name{excellent_teachers}
 \alias{excellent_teachers}
 \title{Teachers Ranked as Excellent from Fall 1993 through Summer 2017}
-\format{A \code{data.frame} with 85,778 observations and 9 variables:
+\format{
+A \code{data.frame} with 85,778 observations and 9 variables:
 \itemize{
 \item \code{term}: Two letter semester code (\code{sp}, \code{su}, \code{fa}, or \code{wi}) followed by a four digit year.
 \itemize{
@@ -20,7 +21,7 @@
 }
 \item \code{unit}: The CITL-supplied headers for the unit teaching the course.
 \itemize{
-\item Examples: \code{ACCOUNTANCY}, \code{SOCIAL WORK}, \code{LINGUISTICS}, \code{NUCLEAR, PLASMA & RAD. ENGR.}
+\item Examples: \code{ACCOUNTANCY}, \verb{SOCIAL WORK}, \code{LINGUISTICS}, \verb{NUCLEAR, PLASMA & RAD. ENGR.}
 }
 \item \code{lname}: The last name of the teacher.
 \itemize{
@@ -36,7 +37,8 @@
 \itemize{
 \item Examples: \code{199}, \code{225}, \code{560}, \code{NA}
 }
-}}
+}
+}
 \source{
 Wade Fagen-Ulmschneider
 
@@ -56,7 +58,7 @@ through Summer 2017.
 \details{
 At the University of Illinois at Urbana-Champaign, every semester students
 complete an \href{http://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)}{Instructor and Course Evaluation (ICES)} questionnaire for each
-course they are enrolled.  The \href{http://citl.illinois.edu/}{Center for Innovation in Teaching andLearning (CITL)} compiles this data into the list of "Teachers Ranked as Excellent"
+course they are enrolled.  The \href{http://citl.illinois.edu/}{Center for Innovation in Teaching and Learning (CITL)} compiles this data into the list of "Teachers Ranked as Excellent"
 and publishes the names of those teaches in the local newspaper and
 \href{http://citl.illinois.edu/citl-101/measurement-evaluation/teaching-evaluation/teaching-evaluations-(ices)/teachers-ranked-as-excellent}{online as a PDF}
 }

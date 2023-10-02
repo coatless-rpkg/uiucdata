@@ -12,7 +12,10 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Travis-CI Build Status](https://travis-ci.org/coatless/uiucdata.svg?branch=master)](https://travis-ci.org/coatless/uiucdata)[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/uiucdata)](http://www.r-pkg.org/pkg/uiucdata) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/uiucdata)](https://cran.r-project.org/package=uiucdata)
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/illinois-r/uiucdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/illinois-r/uiucdata/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
 
 # `uiucdata`
 
@@ -25,8 +28,8 @@ to a diverse group of individuals with a low barrier for entry.
 You can install `uiucdata` from github with:
 
 ```{r gh-installation, eval = FALSE}
-# install.packages("devtools")
-devtools::install_github("coatless/uiucdata")
+# install.packages("remotes")
+remotes::install_github("coatless-rpkg/uiucdata")
 ```
 
 ## Example
@@ -80,7 +83,7 @@ The following data sets are included in the `ucidata` package:
 ## Build Scripts
 
 Want to see how each data set was imported? 
-Check out the [`data-raw`](https://github.com/coatless/uiucdata/tree/master/data-raw) folder!
+Check out the [`data-raw`](https://github.com/coatless-rpkg/uiucdata/tree/master/data-raw) folder!
 
 ## Submodules
 
@@ -105,11 +108,5 @@ Urbana-Champaign who is not the author of this data package.
 Raw grade data
 
 ```bash
-git submodule add https://github.com/coatless/uiucgradedata data-raw/grade-dist
+git submodule add https://github.com/coatless-rpkg/uiucgradedata data-raw/grade-dist
 ```
-
-## Coming Soon (TM)
-
-- [Freedom of Information Data Sets](https://www.uillinois.edu/cms/One.aspx?portalId=1324&pageId=171041)
-    - Graybook and Non-graybook Financials
-    - Crime Statistics

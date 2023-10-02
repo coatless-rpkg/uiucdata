@@ -7,7 +7,8 @@
 \alias{spring_enrolled_ranking}
 \alias{summer_enrolled_ranking}
 \title{Enrollment based on Curriculum and Class Level Data from Fall 2004 - Spring 2017}
-\format{There are three different data sets documented simultaneously within
+\format{
+There are three different data sets documented simultaneously within
 this file.
 \itemize{
 \item \code{fall_curriculum_class}: 8590 observations and 23 variables.
@@ -133,7 +134,12 @@ with the format of:
 \item Factor
 \item Fall, Spring, or Summer
 }
-}}
+}
+
+An object of class \code{data.frame} with 8760 rows and 23 columns.
+
+An object of class \code{data.frame} with 6369 rows and 23 columns.
+}
 \usage{
 fall_enrolled_ranking
 

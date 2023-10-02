@@ -5,7 +5,7 @@
 Status](https://travis-ci.org/coatless/uiucdata.svg?branch=master)](https://travis-ci.org/coatless/uiucdata)[![CRAN
 RStudio mirror
 downloads](http://cranlogs.r-pkg.org/badges/uiucdata)](http://www.r-pkg.org/pkg/uiucdata)
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/uiucdata)](https://cran.r-project.org/package=uiucdata)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/uiucdata)](https://cran.r-project.org/package=uiucdata)
 
 # `uiucdata`
 
@@ -19,8 +19,8 @@ low barrier for entry.
 You can install `uiucdata` from github with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("coatless/uiucdata")
+# install.packages("remotes")
+remotes::install_github("coatless-rpkg/uiucdata")
 ```
 
 ## Example
@@ -65,23 +65,23 @@ head(fall_enrolled_ranking)
 
 The following data sets are included in the `ucidata` package:
 
-  - [Division of Management Information](http://www.dmi.illinois.edu/)
-      - [Student Enrollment by Curriculum and Class
-        Level](http://www.dmi.illinois.edu/stuenr/#class)
-  - [Freedom of Information Data
-    Sets](https://www.uillinois.edu/cms/One.aspx?portalId=1324&pageId=171041)
-      - Grade Distribution Data
-  - [Center for Innovation in Teaching and Learning
-    (CITL)](http://citl.illinois.edu/)
-      - Teachers Ranked as Excellent (Data courtesy of Wade-Fagen, see
-        the [project repo for more
-        details](https://github.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC))
+- [Division of Management Information](http://www.dmi.illinois.edu/)
+  - [Student Enrollment by Curriculum and Class
+    Level](http://www.dmi.illinois.edu/stuenr/#class)
+- [Freedom of Information Data
+  Sets](https://www.uillinois.edu/cms/One.aspx?portalId=1324&pageId=171041)
+  - Grade Distribution Data
+- [Center for Innovation in Teaching and Learning
+  (CITL)](http://citl.illinois.edu/)
+  - Teachers Ranked as Excellent (Data courtesy of Wade-Fagen, see the
+    [project repo for more
+    details](https://github.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC))
 
 ## Build Scripts
 
 Want to see how each data set was imported? Check out the
 [`data-raw`](https://github.com/coatless/uiucdata/tree/master/data-raw)
-folder\!
+folder!
 
 ## Submodules
 
@@ -102,18 +102,10 @@ git submodule add https://github.com/wadefagen/Teachers-Ranked-As-Excellent-UIUC
 **NB** This repository is made by an employee of the University of
 Illinois at Urbana-Champaign who is not the author of this data package.
 
------
+------------------------------------------------------------------------
 
-Raw grade
-data
+Raw grade data
 
 ``` bash
 git submodule add https://github.com/coatless/uiucgradedata data-raw/grade-dist
 ```
-
-## Coming Soon (TM)
-
-  - [Freedom of Information Data
-    Sets](https://www.uillinois.edu/cms/One.aspx?portalId=1324&pageId=171041)
-      - Graybook and Non-graybook Financials
-      - Crime Statistics
